@@ -1,0 +1,93 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Primeiros Socorros </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-card>
+          <ion-card-content>
+            <p>
+              <strong>Primeiros Socorros</strong>
+            </p>
+            <ion-item>
+              <ion-label class="ion-text-wrap">Antes de qualquer procedimento de primeiro socorro, é importante que o socorrista tenha em mente a necessidade de:
+
+                <li>Manter a calma;</li>
+              <li>Afastar os curiosos;</li> 
+            <li class="ion-text-wrap">Garantir que serviço de emergência seja chamado.</li>
+             </ion-label>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+        <ion-card-content>
+          <p>
+            <strong>Queimaduras</strong>
+          </p>
+          <ion-item>
+            <ion-thumbnail slot="start" class>
+              <img
+                class="radius"
+                src="http://s2.glbimg.com/hTR149j0D5GNe-VUZbW7SbyMVMI=/s.glbimg.com/jo/g1/f/original/2017/06/05/luta_contra_queimados.jpg"/>
+            </ion-thumbnail>
+            <ion-label class="ion-text-wrap">
+              <li> Retire a pessoa da região próxima à fonte de calor. </li>
+              <li>Se o dano for leve,  lave o local com água corrente ou coloque compressas de soro fisiológico para reduzir a temperatura do local.</li>
+              <li>Caso apareçam bolhas, elas nunca devem ser furadas.</li>
+              <li>Se o dano for grave, é fundamental procurar ajuda médica imediatamente.</li>
+              <li>Nunca passe nenhuma substância caseira nem mesmo medicamentos sem que sejam recomendados por um médico.</li>
+           </ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <p>
+            <strong>Engasgo</strong>
+          </p>
+          <ion-item>
+            <ion-thumbnail slot="start" class>
+              <img
+                class="radius"
+                src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/d5a8cedd0b4be1a0f0877abc7ab8b37a.jpg"/>
+            </ion-thumbnail>
+            <ion-label class="ion-text-wrap">
+              <li> Acalme a vítima. </li>
+              <li>Posicione-se atrás da vítima e coloque o braço ao redor do abdomen dela. Uma mão fechada sobre a boca do estômago e a outra mão é posicionada em cima da primeira e a comprime.</li>
+              <li>Os movimentos de compressão deverão ser feitos para dentro e para cima, permitindo que o objeto que está bloqueando a via respiratória seja eliminado.</li>
+           </ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <p>
+            <strong>Fratura</strong>
+          </p>
+          <ion-item>
+            <ion-thumbnail slot="start" class>
+              <img
+                class="radius"
+                src="data:image/png;base64,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"/>
+            </ion-thumbnail>
+            <ion-label class="ion-text-wrap">
+              <li>Imobilize a região acometida para evitar a movimentação dos fragmentos dos ossos lesionados.</li>
+              <li>Não se deve tentar colocar o osso no local, pois isso pode agravar o quadro, caso seja feito de maneira inadequada.</li>
+              <li>Em caso de fraturas expostas, é necessário tentar controlar, caso esteja presente, a hemorragia com um pano limpo que deve ser colocado sobre o local e pressionado.</li>
+              <li>Lembre-se que fraturas em costas e pescoço necessitam de mais atenção e a movimentação só deve ser feita por profissionais.</li>
+           </ion-label>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
